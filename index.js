@@ -19,12 +19,6 @@ function toBinastContentType(originalRes) {
   return res;
 }
 
-function toExtJS(path) {
-  const parts = path.split(".");
-  parts[parts.length - 1] = "js";
-  return parts.join(".");
-}
-
 function toExtBinJs(path) {
   const parts = path.split(".");
   parts[parts.length - 1] = "binjs";
@@ -56,5 +50,5 @@ addEventListener("fetch", event => {
 
 // Test
 if (module.exports !== undefined) {
-  module.exports = { toExtJS, toExtBinJs };
+  module.exports = { toExtBinJs };
 }
