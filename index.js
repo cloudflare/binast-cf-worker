@@ -9,7 +9,7 @@ async function fetchOriginJS(path) {
     // fallback to js
     return fetchOrigin(path);
   } else {
-    return res;
+    return toBinastContentType(res);
   }
 }
 
@@ -37,8 +37,7 @@ async function handleRequest(request) {
   }
 
   if (serveBinJs === true) {
-    const res = await fetchOriginJS(path);
-    return toBinastContentType(res);
+    return fetchOriginJS(path);
   } else {
     return fetchOrigin(path);
   }
