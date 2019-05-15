@@ -1,5 +1,5 @@
 async function fetchOrigin(path) {
-  return fetch("https://xtuc.github.io/binjs-demo/build" + path);
+  return fetch("https://cloudflare.github.io/binjs-demo/build" + path);
 }
 
 async function fetchOriginJS(path) {
