@@ -7,4 +7,6 @@ Copy/past the content of the `index.js` file into a Cloudflare Worker, see https
 
 ## Usage
 
+Define your origin by changing the URL here: https://github.com/xtuc/binast-cf-worker/blob/c7b354bcbc7764faf0df5ee98463df08e453c776/index.js#L2.
+
 The Worker will serve your website and BinAST if supported.
