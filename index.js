@@ -46,8 +46,3 @@ async function handleRequest(request) {
 addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request));
 });
-
-// Test
-if (module.exports !== undefined) {
-  module.exports = { toExtBinJs };
-}
