@@ -2,8 +2,6 @@
 
 Serve BinAST via a Cloudflare Worker
 
-A template for kick starting a Cloudflare worker project.
-
 `index.js` is the content of the Workers script.
 
 #### Wrangler
