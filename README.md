@@ -1,14 +1,13 @@
-# binast-cf-worker
-> Serve BinAST via a Cloudflare Worker
+# 👷 `binast-cf-worker`
 
-## Installation 
+Serve BinAST via a Cloudflare Worker
 
-Copy/past the content of the `index.js` file into a Cloudflare Worker, see https://developers.cloudflare.com/workers/writing-workers.
+`index.js` is the content of the Workers script.
 
-Make sure to route your Worker to an entire subdomain, as path pointing to the root.
+#### Wrangler
 
-## Usage
+To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
-Define your origin by changing the URL here: https://github.com/xtuc/binast-cf-worker/blob/c7b354bcbc7764faf0df5ee98463df08e453c776/index.js#L2. By default it will serve https://github.com/xtuc/binjs-demo.
-
-The Worker will serve your website and BinAST if supported.
+```
+wrangler generate binast-cf-worker https://github.com/cloudflare/binast-cf-worker
+```
