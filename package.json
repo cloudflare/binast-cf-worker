@@ -10,7 +10,6 @@
     "pngjs": "^3.4.0",
     "string-to-stream": "^1.1.1"
   },
-  "description": "A template for kick starting a Cloudflare Workers project",
   "main": "./index.js",
   "license": "MIT"
 }

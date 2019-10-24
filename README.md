@@ -9,5 +9,5 @@ Serve BinAST via a Cloudflare Worker
 To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
 ```
-wrangler generate binast-cf-worker https://github.com/xtuc/binast-cf-worker-template
+wrangler generate binast-cf-worker https://github.com/cloudflare/binast-cf-worker
 ```
